@@ -1,0 +1,29 @@
+Enter the number of equations : 4
+Enter the number of unknowns : 4
+Enter the augmented matrix A:
+3 2 1 4 6
+2 1 5 1 4
+2 6 -4 8 0
+1 3 -2 4 0
+Enter (1 for >=), (0 for ==), (-1 for <=) as per equations :
+-1
+-1
+0
+0
+Enter the coefficients of expression(Z):
+1 1.5 5 2
+Enter (1 to Maximize Z) and (0 to Minimize Z) :
+1
+
+********************************
+
+Phase-2 Table:
+
+ 2.00 -1.00  3.00  0.00  6.00
+ 1.75  0.25  5.50  0.00  4.00
+ 0.25  0.75 -0.50  0.00  0.00
+ 0.00  0.00  0.00  0.00  0.00
+-0.50  0.00 -6.00  0.00  0.00
+
+
+********************************

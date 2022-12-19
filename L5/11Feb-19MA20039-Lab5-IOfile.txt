@@ -1,0 +1,209 @@
+Inputs and Outputs :
+
+Example 1 :
+
+Enter the number of equations : 3
+Enter the number of unknowns : 3
+Enter the augmented matrix A:
+3 2 1 10
+2 3 3 15
+1 1 -1 4
+Enter (1 for >=), (0 for ==), (-1 for <=) as per equations :
+-1 -1 1
+Enter the coefficients of expression(Z):
+2 3 4
+Enter (1 to Maximize Z) and (0 to Minimize Z) :
+1
+
+Enter the serial number for your operation :
+1. Print Initial Table for Phase-1
+2. Print Initial Table for Phase-2
+3. Print the Optimal Solution
+---- Enter any other number to EXIT ----
+
+1
+
+********************************
+
+Phase-1 Initial Table:
+
+ 3.00  2.00  1.00  0.00  10.00
+ 2.00  3.00  3.00  0.00  15.00
+ 1.00  1.00 -1.00 -1.00  4.00
+-1.00 -1.00  1.00  1.00 -4.00
+-2.00 -3.00 -4.00  0.00  0.00
+
+
+********************************
+
+Enter the serial number for your operation :
+1. Print Initial Table for Phase-1
+2. Print Initial Table for Phase-2
+3. Print the Optimal Solution
+---- Enter any other number to EXIT ----
+
+2
+
+********************************
+
+Phase-2 Initial Table:
+
+ 1.00  0.00  3.00  2.00  2.00
+ 1.00  0.00  9.00  5.00  5.00
+-1.00  0.00 -4.00 -3.00  2.00
+-1.00  0.00 -10.00 -5.00  10.00
+
+
+********************************
+
+Enter the serial number for your operation :
+1. Print Initial Table for Phase-1
+2. Print Initial Table for Phase-2
+3. Print the Optimal Solution
+---- Enter any other number to EXIT ----
+
+3
+
+Optimum Solution: X1=0.3333 X3=0.5556 X2=4.2222
+Optimum Value: 15.5556
+
+
+
+
+Example 2 :
+
+Enter the number of equations : 3
+Enter the number of unknowns : 3
+Enter the augmented matrix A:
+1 1 1 40
+2 1 -1 10
+0 -1 1 10
+Enter (1 for >=), (0 for ==), (-1 for <=) as per equations :
+-1 1 1
+Enter the coefficients of expression(Z):
+2 3 1
+Enter (1 to Maximize Z) and (0 to Minimize Z) :
+1
+
+Enter the serial number for your operation :
+1. Print Initial Table for Phase-1
+2. Print Initial Table for Phase-2
+3. Print the Optimal Solution
+---- Enter any other number to EXIT ----
+
+1
+
+********************************
+
+Phase-1 Initial Table:
+
+ 1.00  1.00  1.00  0.00  0.00  40.00
+ 2.00  1.00 -1.00 -1.00  0.00  10.00
+ 0.00 -1.00  1.00  0.00 -1.00  10.00
+-2.00  0.00  0.00  1.00  1.00 -20.00
+-2.00 -3.00 -1.00  0.00  0.00  0.00
+
+
+********************************
+
+Enter the serial number for your operation :
+1. Print Initial Table for Phase-1
+2. Print Initial Table for Phase-2
+3. Print the Optimal Solution
+---- Enter any other number to EXIT ----
+
+2
+
+********************************
+
+Phase-2 Initial Table:
+
+ 0.00  2.00  0.00  0.50  1.50  20.00
+ 0.00  0.00  0.00 -0.50 -0.50  10.00
+ 0.00 -1.00  0.00  0.00 -1.00  10.00
+ 0.00 -4.00  0.00 -1.00 -2.00  30.00
+
+
+********************************
+
+Enter the serial number for your operation :
+1. Print Initial Table for Phase-1
+2. Print Initial Table for Phase-2
+3. Print the Optimal Solution
+---- Enter any other number to EXIT ----
+
+3
+
+Optimum Solution: X2=10.0000 X1=10.0000 X3=20.0000
+Optimum Value: 70.0000
+
+
+Example 3 :
+
+Enter the number of equations : 3
+Enter the number of unknowns : 3
+Enter the augmented matrix A:
+5 7 4 7
+-4 7 5 -2
+3 4 -6 4.1428
+Enter (1 for >=), (0 for ==), (-1 for <=) as per equations :
+-1 1 1
+Enter the coefficients of expression(Z):
+3 2 2
+Enter (1 to Maximize Z) and (0 to Minimize Z) :
+1
+
+Enter the serial number for your operation :
+1. Print Initial Table for Phase-1
+2. Print Initial Table for Phase-2
+3. Print the Optimal Solution
+---- Enter any other number to EXIT ----
+
+1
+
+********************************
+
+Phase-1 Initial Table:
+
+ 5.00  7.00  4.00  0.00  0.00  7.00
+-4.00  7.00  5.00 -1.00  0.00 -2.00
+ 3.00  4.00 -6.00  0.00 -1.00  4.14
+ 1.00 -11.00  1.00  1.00  1.00 -2.14
+-3.00 -2.00 -2.00  0.00  0.00  0.00
+
+
+********************************
+
+Enter the serial number for your operation :
+1. Print Initial Table for Phase-1
+2. Print Initial Table for Phase-2
+3. Print the Optimal Solution
+---- Enter any other number to EXIT ----
+
+2
+
+********************************
+
+Phase-2 Initial Table:
+
+ 0.00  0.00  14.08  0.03  1.70  0.00
+ 0.00  0.00 -0.24 -0.08 -0.11  0.29
+ 0.00  0.00 -1.68  0.11 -0.19  1.00
+ 0.00  0.00 -7.51  0.16 -0.78  3.57
+
+
+********************************
+
+Enter the serial number for your operation :
+1. Print Initial Table for Phase-1
+2. Print Initial Table for Phase-2
+3. Print the Optimal Solution
+---- Enter any other number to EXIT ----
+
+3
+
+Optimum Solution: X3=0.0000 X2=0.2857 X1=1.0000
+Optimum Value: 3.5714
+
+
+
